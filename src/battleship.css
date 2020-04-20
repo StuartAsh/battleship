@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+font-family: 'Roboto';
+}
+
+.root {
+
+  h1 {
+    color: #ff0e88;
+  }
+  margin-left: 20px;
+}
+
+.game {
+    background-color: #cccccc;
+    width: 400px;
+    margin: 30px auto;
+    padding: 1px 0px 30px 0px;
+    border-radius: 20px;
+}
+
+.row {
+  clear: left;
+}
+.square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.square.hit {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.square.miss {
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.grid {
+  background-image: url('./images/water.gif');
+  height: 242px;
+  width: 242px;
+  margin: 0px auto;
+}
+
+.grid-title {
+  width: 242px;
+  margin: 30px auto;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.game-title {
+  width: 242px;
+  margin: 30px auto;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2.win-message {
+    color: red;
+}
