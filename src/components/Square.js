@@ -44,7 +44,7 @@ class Square extends React.Component {
     const coordinate = this.props.rowID + this.props.colID;
     let squareClass = "square",
         match = this.props.shots.filter(c => c.coordinate === coordinate),
-        text = "";
+        text = this.state.text;
 
     if(match.length > 0){
       const shot = match[0];
